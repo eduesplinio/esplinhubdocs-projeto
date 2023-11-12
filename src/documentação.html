@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Esplin Hub Docs - Projeto - Documentação</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='author' content='Esplin Hub Docs - Projeto' />
+  <meta name='description' content='Sobre o projeto' />
+  <meta name='robots' content='index,follow' />
+  <meta name='og:title' content='Esplin Hub Docs - Projeto - Documentação' />
+  <meta name='og:description' content='Sobre o projeto' />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/813705bae2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+
+
+</head>
+
+<body>
+  <!--Top customizations regions-->
+  <div id="top-region-container">
+
+
+
+  </div>
+  <main class="pulsar-page-wrapper">
+    <!--Default mobile Navbar-->
+
+    <nav class="pulsar-doc-navbar">
+      <button onclick="openNavigationMenu();" style="color: rgba(var(--text), 0.9);">
+        <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+      </button>
+    </nav>
+    <hr class="pulsar-doc-navbar-divider pulsar-divider" />
+
+
+    <div class="pulsar-doc-page-nav-doc-indexes-table-container">
+      <!--Navigation Menu-->
+
+      <div class="pulsar-doc-navigation-menu-container">
+        <div class="pulsar-doc-navigation-menu">
+          <!--Mobile close menu button-->
+          <button onclick="closeNavigationMenu();" class="pulsar-doc-navigation-menu-close-button">
+            <i class="fa-solid fa-xmark" style="color: rgba(var(--text)); font-size: 20px;"></i>
+          </button>
+          <!--Map icon and title-->
+
+          <div style="display: flex; gap: 15px;">
+            <div class="pulsar-doc-navigation-menu-map-icon-container">
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="pulsar-doc-navigation-menu-map-icon" height="1em" viewBox="0 0 576 512">
+                <path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z" />
+              </svg>
+
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <p title="EsplinHub Docs" class="pulsar-navigation-menu-title pulsar-utils-truncate">
+                EsplinHub Docs
+              </p>
+              <p title="Doc do Projeto" class="pulsar-navigation-menu-subtitle pulsar-utils-truncate">
+                Doc do Projeto
+              </p>
+            </div>
+          </div>
+          <hr class="pulsar-navigation-menu-divider" />
+
+          <!--Categories-->
+          <ul class="pulsar-doc-navigation-menu-category-list">
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🚀 Iniciar</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/" title="Introdução" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Introdução
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/repositório.html" title="Repositório" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Repositório
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/organização.html" title="Organização" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Organização
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">⚙️ Configurações Iniciais</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/ambiente.html" title="Ambiente" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Ambiente
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/ferramentas.html" title="Ferramentas" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Ferramentas
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/diretórios.html" title="Diretórios" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Diretórios
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🔒 Autenticação de Usuários</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/sessãodeusuário.html" title="Sessão de Usuário" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Sessão de Usuário
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">📺 Interface Principal</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/layoutenavegação.html" title="Layout e Navegação" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Layout e Navegação
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">👤 CRUD de Clientes</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/operaçõesdocliente.html" title="Operações do Cliente" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Operações do Cliente
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🏬 CRUD de Produtos</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/operaçõesdoproduto.html" title="Operações do Produto" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Operações do Produto
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🏁 Finalizações</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/refinamentoui/ux.html" title="Refinamento UI/UX" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Refinamento UI/UX
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/documentação.html" title="Documentação" class="pulsar-navigation-link pulsar-utils-truncate current-page">
+                    Documentação
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🔲 Demais Recursos</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/responsividade.html" title="Responsividade" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Responsividade
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/darkmode.html" title="Dark Mode" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Dark Mode
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+        <!--Mobile navigation menu backdrop-->
+        <div onclick="closeNavigationMenu();" class="pulsar-navigation-menu-mobile-backdrop"></div>
+      </div>
+
+      <!--Page Content-->
+
+      <div class="pulsar-current-page-content">
+        <h1 class="pulsar-heading pulsar-heading-indexed pulsar-heading-1">Documentação</h1>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph">A fase final do projeto EsplinHub envolveu a elaboração de duas formas essenciais de documentação, cada uma atendendo a um público-alvo específico e desempenhando um papel crucial na acessibilidade e compreensão do projeto.</p>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Documentação para Clientes</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Endereço Web</strong>: <a target="_blank" rel="noopener noreferrer nofollow" class="pulsar-link" href="https://esplinhubdocs.vercel.app/">Documentação do EsplinHub para Clientes</a></p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Objetivo</strong>: Esta documentação é voltada para os usuários finais do sistema EsplinHub. Ela fornece instruções claras e acessíveis sobre como utilizar as diversas funcionalidades da aplicação.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Conteúdo</strong>: Inclui guias passo a passo e explicações sobre as funcionalidades do produto, garantindo que os clientes possam aproveitar ao máximo a aplicação.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Formato e Acessibilidade</strong>: Projetada para ser fácil de navegar e entender, mesmo para usuários sem conhecimento técnico aprofundado.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Documentação Técnica do Projeto</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Objetivo</strong>: A documentação técnica, que é esta que estou elaborando, é destinada a desenvolvedores, contribuidores e qualquer pessoa interessada nos aspectos técnicos do EsplinHub.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Conteúdo</strong>: Cobrindo desde a configuração do ambiente de desenvolvimento até detalhes de implementação de cada funcionalidade, esta documentação oferece insights abrangentes sobre o desenvolvimento e a estrutura do projeto.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Importância</strong>: Serve como um recurso valioso para manutenção, escalabilidade e contribuições futuras para o projeto, garantindo que os desenvolvedores possam facilmente entender e colaborar no EsplinHub.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Impacto e Benefícios</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Facilitação do Uso e Manutenção</strong>: Ambas as documentações desempenham um papel vital em tornar o EsplinHub acessível e compreensível, tanto para os usuários finais quanto para os desenvolvedores.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Engajamento e Colaboração</strong>: A documentação técnica incentiva a participação da comunidade de desenvolvedores, enquanto a documentação para clientes ajuda a construir uma base de usuários bem informada e engajada.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Sustentabilidade do Projeto</strong>: Documentações bem elaboradas são fundamentais para a sustentabilidade a longo prazo do projeto, facilitando atualizações, expansões e suporte contínuo.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+      </div>
+
+      <!--Indexes Table-->
+
+      <div class="pulsar-indexes-table-container">
+
+        <div class="pulsar-indexes-table">
+          <h2 class="pulsar-indexes-table-title">
+            Nesta página
+          </h2>
+          <ul class="pulsar-indexes-table-list"></ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <!--Bottom customizations regions-->
+  <div id="bottom-region-container">
+
+
+
+  </div>
+  <script type="module" src="./assets/script.js"></script>
+</body>
+
+</html>

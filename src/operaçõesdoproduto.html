@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Esplin Hub Docs - Projeto - Operações do Produto</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='author' content='Esplin Hub Docs - Projeto' />
+  <meta name='description' content='Sobre o projeto' />
+  <meta name='robots' content='index,follow' />
+  <meta name='og:title' content='Esplin Hub Docs - Projeto - Operações do Produto' />
+  <meta name='og:description' content='Sobre o projeto' />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/813705bae2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+
+
+</head>
+
+<body>
+  <!--Top customizations regions-->
+  <div id="top-region-container">
+
+
+
+  </div>
+  <main class="pulsar-page-wrapper">
+    <!--Default mobile Navbar-->
+
+    <nav class="pulsar-doc-navbar">
+      <button onclick="openNavigationMenu();" style="color: rgba(var(--text), 0.9);">
+        <i class="fa-solid fa-bars" style="font-size: 30px;"></i>
+      </button>
+    </nav>
+    <hr class="pulsar-doc-navbar-divider pulsar-divider" />
+
+
+    <div class="pulsar-doc-page-nav-doc-indexes-table-container">
+      <!--Navigation Menu-->
+
+      <div class="pulsar-doc-navigation-menu-container">
+        <div class="pulsar-doc-navigation-menu">
+          <!--Mobile close menu button-->
+          <button onclick="closeNavigationMenu();" class="pulsar-doc-navigation-menu-close-button">
+            <i class="fa-solid fa-xmark" style="color: rgba(var(--text)); font-size: 20px;"></i>
+          </button>
+          <!--Map icon and title-->
+
+          <div style="display: flex; gap: 15px;">
+            <div class="pulsar-doc-navigation-menu-map-icon-container">
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="pulsar-doc-navigation-menu-map-icon" height="1em" viewBox="0 0 576 512">
+                <path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z" />
+              </svg>
+
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <p title="EsplinHub Docs" class="pulsar-navigation-menu-title pulsar-utils-truncate">
+                EsplinHub Docs
+              </p>
+              <p title="Doc do Projeto" class="pulsar-navigation-menu-subtitle pulsar-utils-truncate">
+                Doc do Projeto
+              </p>
+            </div>
+          </div>
+          <hr class="pulsar-navigation-menu-divider" />
+
+          <!--Categories-->
+          <ul class="pulsar-doc-navigation-menu-category-list">
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🚀 Iniciar</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/" title="Introdução" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Introdução
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/repositório.html" title="Repositório" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Repositório
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/organização.html" title="Organização" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Organização
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">⚙️ Configurações Iniciais</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/ambiente.html" title="Ambiente" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Ambiente
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/ferramentas.html" title="Ferramentas" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Ferramentas
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/diretórios.html" title="Diretórios" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Diretórios
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🔒 Autenticação de Usuários</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/sessãodeusuário.html" title="Sessão de Usuário" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Sessão de Usuário
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">📺 Interface Principal</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/layoutenavegação.html" title="Layout e Navegação" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Layout e Navegação
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">👤 CRUD de Clientes</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/operaçõesdocliente.html" title="Operações do Cliente" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Operações do Cliente
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🏬 CRUD de Produtos</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/operaçõesdoproduto.html" title="Operações do Produto" class="pulsar-navigation-link pulsar-utils-truncate current-page">
+                    Operações do Produto
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🏁 Finalizações</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/refinamentoui/ux.html" title="Refinamento UI/UX" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Refinamento UI/UX
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/documentação.html" title="Documentação" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Documentação
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <h2 class="pulsar-doc-navigation-menu-category-item">🔲 Demais Recursos</h2>
+              <!--Category Pages-->
+              <ul>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/responsividade.html" title="Responsividade" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Responsividade
+                  </a>
+
+                </li>
+
+                <li class="pulsar-doc-navigation-menu-category-page-item" style="border-color: rgba(var(--divider), 0.725);">
+
+                  <a href="/darkmode.html" title="Dark Mode" class="pulsar-navigation-link pulsar-utils-truncate ">
+                    Dark Mode
+                  </a>
+
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+        <!--Mobile navigation menu backdrop-->
+        <div onclick="closeNavigationMenu();" class="pulsar-navigation-menu-mobile-backdrop"></div>
+      </div>
+
+      <!--Page Content-->
+
+      <div class="pulsar-current-page-content">
+        <h1 class="pulsar-heading pulsar-heading-indexed pulsar-heading-1">CRUD de Produtos</h1>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph">A implementação do CRUD de produtos é fundamental no EsplinHub, proporcionando um controle completo sobre a criação, leitura, atualização e exclusão de informações de produtos. Esta seção detalha as interfaces e funcionalidades desenvolvidas para o gerenciamento de produtos.</p>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Interface de Listagem de Produtos</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Visualização dos Dados</strong>: A interface oferece uma listagem clara e detalhada dos produtos, incluindo informações como preço, categoria e disponibilidade.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Dados Dinâmicos</strong>: A listagem é atualizada em tempo real com dados obtidos da API, assegurando que as informações sejam sempre atuais.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Funcionalidades de Pesquisa e Filtro</strong>: Ferramentas de pesquisa e filtros permitem aos usuários encontrar rapidamente produtos específicos.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Design Intuitivo</strong>: O layout da lista é projetado para ser intuitivo e fácil de usar, com uma resposta rápida em diferentes dispositivos.</p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Formulários para Adicionar e Editar Produtos</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Formulários Dinâmicos</strong>: Formulários interativos para adicionar novos produtos e editar informações existentes.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Validações de Dados</strong>: Verificações no lado do cliente asseguram a corretura e a completude dos dados inseridos antes de serem enviados.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Experiência do Usuário</strong>: A interface dos formulários é desenhada para ser amigável, com validações e mensagens de erro claras, facilitando a entrada de dados.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Funcionalidade de Deletar Produtos</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Exclusão Consciente</strong>: Implementada uma funcionalidade de exclusão que requer confirmação do usuário, evitando deleções acidentais.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Processamento Seguro de Requisições</strong>: As requisições de exclusão são cuidadosamente processadas pela API para garantir a remoção apropriada dos registros.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <h2 class="pulsar-heading pulsar-heading-indexed pulsar-heading-2">Integração com API para CRUD de Produtos</h2>
+        <p class="pulsar-paragraph"></p>
+        <ul class="pulsar-bulletlist tight" data-tight="true">
+          <li>
+            <p class="pulsar-paragraph"><strong>Comunicação Eficaz</strong>: Estabelecida uma comunicação sólida entre o front-end e o back-end para operações de CRUD, utilizando tecnologias como Axios.</p>
+            <p class="pulsar-paragraph"></p>
+          </li>
+          <li>
+            <p class="pulsar-paragraph"><strong>Gerenciamento de Estado com Vuex</strong>: O estado dos produtos é gerenciado no front-end com Vuex, proporcionando atualizações consistentes e reativas na interface.</p>
+          </li>
+        </ul>
+        <p class="pulsar-paragraph"></p>
+        <p class="pulsar-paragraph"></p>
+        <hr class="pulsar-divider">
+        <p class="pulsar-paragraph"></p>
+      </div>
+
+      <!--Indexes Table-->
+
+      <div class="pulsar-indexes-table-container">
+
+        <div class="pulsar-indexes-table">
+          <h2 class="pulsar-indexes-table-title">
+            Nesta página
+          </h2>
+          <ul class="pulsar-indexes-table-list"></ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+  <!--Bottom customizations regions-->
+  <div id="bottom-region-container">
+
+
+
+  </div>
+  <script type="module" src="./assets/script.js"></script>
+</body>
+
+</html>
